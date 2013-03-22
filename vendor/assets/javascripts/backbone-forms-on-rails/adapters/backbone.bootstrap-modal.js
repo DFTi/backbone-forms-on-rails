@@ -152,7 +152,7 @@
           backdropIndex = $backdrop.css('z-index'),
           elIndex = $backdrop.css('z-index');
 
-      $backdrop.css('z-index', backdropIndex + numModals);
+      //$backdrop.css('z-index', backdropIndex + numModals);
       this.$el.css('z-index', elIndex + numModals);
 
       if (this.options.allowCancel) {
